@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Frontend Developer</title>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/7.0.0/normalize.min.css">
+    <link rel="icon" href="/favicon.ico" type="image/x-icon">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;400;500;700;900&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header class="header">
+        <button class="menu">меню</button>
+        <nav class="nav">
+
+            <svg id="close-button" width="20" height="20.054" viewBox="0 0 20 20.054">
+                <path id="close-line" d="M19.41,18,27.7,9.71A1,1,0,0,0,26.29,8.3L18,16.59,9.71,8.29A1,1,0,0,0,8.29,9.71L16.59,18l-8.3,8.29A1,1,0,1,0,9.7,27.7L18,19.41l8.29,8.29a1,1,0,0,0,1.41-1.41Z" transform="translate(-7.94 -7.996)"/>
+            </svg>
+            
+            <ul class="nav__list">
+                <li class="nav__item"><a href="#intro" id="introNavLink" class="nav__link selected">Главная</a></li>
+                <li class="nav__item"><a href="#skills" id="skillsNavLink" class="nav__link">Навыки</a></li>
+                <li class="nav__item"><a href="#works" id="worksNavLink" class="nav__link">Портфолио</a></li>
+                <li class="nav__item"><a href="#contacts" id="contactsNavLink" class="nav__link">Контакты</a></li>
+            </ul>   
+        </nav>
+    </header>
+
+    <!-- Introduction -->
+    <section class="intro" id="intro">
+
+        <div class="intro__wrapper wrapper">
+            <div class="intro__title">
+                <h1 class="title">Frontend <br> разработчик</h1>
+                <img class="avatar" src="/img/avatar.png" alt="">
+            </div>
+            <h2 class="section__title first-title title-watermark">Резюме</h2>
+        </div>
+
+        <div class="intro__wrapper">
+            <p class="intro__about">
+                Меня зовут <b>Никита</b>. Я 
+                разрабатываю интерактивные 
+                сайты с помощью <strong>HTML</strong>, <strong>CSS</strong> и 
+                <strong>JS</strong>. Также использую <strong>React</strong>. Я 
+                являюсь студентом 3-го курса 
+                высшей школы бизнес-инжиниринга. А ещё я выпускник 
+                Scrimba.
+            </p>
+        </div>
+
+    </section>
+
+    <!-- Skills -->
+    <section class="skills" id="skills">
+        <div class="wrapper">
+            <h2 class="section__title">Навыки</h2>
+        </div>
+        <div class="wrapper">
+            <ul class="skills__list">
+                <li class="skill">HTML & CSS</li>
+                <li class="skill">Flexbox & Grid</li>
+                <li class="skill">Javascript & APIs</li>
+                <li class="skill">React</li>
+                <li class="skill">Responsive design</li>
+                <li class="skill">Git</li>
+                <li class="skill">English</li>
+            </ul>
+        </div>
+    </section>
+
+    <!-- Works -->
+    <section class="works" id="works">
+        <h2 class="section__title">Портфолио</h2>
+        <div class="portfolio__container">
+            <div class="portfolio__item">
+                <img src="/img/work1.png" alt="">
+                <p>Дашборд для хрома, который показывает погоду, время и курс криптовалюты 'Dogecoin'</p>
+            </div>
+            <div class="portfolio__item">
+                <img src="/img/work2.png" alt="">
+                <p>Игра 'Pac-Man' на чистом JS</p>
+            </div>
+            <div class="portfolio__item">
+                <img src="/img/work3.png" alt="">
+                <p>Игра 'Змейка' на чистом JS</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contacts -->
+    <section class="contacts" id="contacts">
+        <div class="wrapper">
+            <h2 class="section__title">Контакты</h2>
+            <ul class="contacts__list">
+                <li class="contact">+79118212238</li>
+                <li class="contact"><a href="mailto:nixita@yandex.ru">nixita@yandex.ru</a></li>
+                <li class="contact"><a href="https://vk.com/persick_no_cheat" target="_blank">Instagram</a></li>
+                <li class="contact"><a href="https://www.instagram.com/fneufi/" target="_blank">VK</a></li>
+            </ul>
+        </div>
+        <div class="wrapper">
+            <div class="contacts__image">
+                <img src="/img/footer.jpg" alt="">
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <a href="mailto:nixita@yandex.ru" class="footer__link">Никита Спиридонов</a>
+    </footer>
+
+    <style>
+        html { overflow-x: hidden; }
+        body { overflow-x: hidden; }
+    </style>
+
+    <script src="js/index.js"></script>
+    <script>
+
+    </script>
+</body>
+</html>
