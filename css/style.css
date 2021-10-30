@@ -149,6 +149,7 @@ header {
 }
 
 nav {
+    z-index: 1500;
     display: none;
 }
 
@@ -161,6 +162,8 @@ nav {
     margin: auto;
     position: relative;
     place-self: center;
+    color: var(--clr-font);
+    z-index: 2000;
 }
 
 .menu:hover:before,
